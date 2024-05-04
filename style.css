@@ -1,0 +1,197 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-size: 50px;
+    font-family:  Arial, sans-serif;
+    background: linear-gradient(180deg,black,rgb(44, 44, 197));
+    color: blanchedalmond;
+    box-sizing: border-box;width: 100%;height: auto;
+}
+
+@media screen and (min-width:650px) and (max-width:1400px){
+
+.main{
+    border: 1px solid rgb(22, 22, 237);
+    border-radius: 20px;
+    background: rgb(25, 4, 95);
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+    
+.screen{
+    border: 1px solid rgba(97, 198, 211, 0.258);
+    border-radius: 20px;
+    background:linear-gradient(180deg,rgb(28, 237, 237),rgb(195, 219, 228)) ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 150px;
+    margin-top: -10px;
+}
+.screen button{
+    background: rgb(191, 217, 240);
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(8, 109, 122);
+    text-shadow: 2px 2px 2px hsla(218, 64%, 55%, 0.008);
+    border: 6px soild black;
+    border-radius: 20px;
+}
+.classes{
+    border: 1px solid rgba(97, 198, 211, 0.258);
+    border-radius: 20px;
+    background:linear-gradient(180deg,rgb(28, 237, 237),rgb(195, 219, 228)) ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10px;
+     font-size: xx-small;
+}
+.btns {
+    border: 1px solid rgba(97, 198, 211, 0.258);
+    border-radius: 20px;
+    background:linear-gradient(180deg,rgb(79, 78, 78),silver) ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+}
+.btns button{
+    
+    width: 100px;
+    height: 85px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    border: 2px soild rgb(36, 14, 88);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btns button:hover{
+    transition: .1s;
+    color: rgb(29, 157, 231);
+    transform: translate(5px);
+    
+}
+#start{
+    background: linear-gradient(45deg,rgb(21, 74, 21),rgb(89, 244, 89));
+}
+#stop{
+    background: linear-gradient(450deg,rgb(124, 6, 6),rgb(231, 115, 115));
+}
+#reset{
+    background: linear-gradient(450deg,rgb(146, 146, 5),rgb(251, 251, 100));
+}
+
+}
+
+@media screen and (min-width:350px) and (max-width:650px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-size: 50px;
+        font-family:  Arial, sans-serif;
+        background: linear-gradient(180deg,black,rgb(44, 44, 197));
+        color: blanchedalmond;
+        box-sizing: border-box;width: 100%;height: auto;
+    }
+    .main{
+        border: 10px solidrgb(199, 199, 237)e;
+        border-radius: 20px;
+        background: rgb(43, 8, 160);
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+        
+    .screen{
+        border: 1px solid rgba(97, 198, 211, 0.258);
+        border-radius: 20px;
+        background:linear-gradient(180deg,rgb(28, 237, 237),rgb(195, 219, 228)) ;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 90%;
+        height: 150px;
+        margin-top: -10px;
+    }
+   
+    .screen button{
+        background: rgb(191, 217, 240);
+        width: 80px;
+        height: 50px;
+        font-size: 40px;
+        font-weight: bolder;
+        color: rgb(8, 109, 122);
+        text-shadow: 2px 2px 2px hsla(218, 64%, 55%, 0.008);
+        border: 6px soild black;
+        border-radius: 20px;
+    }
+    .btns {
+        border: 1px solid rgba(97, 198, 211, 0.258);
+        border-radius: 20px;
+        background:linear-gradient(180deg,rgb(79, 78, 78),silver) ;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 90%;
+        height: 150px;
+        margin-top: 5px;
+    }
+    .btns button{
+        
+        width: 80px;
+        height: 50px;
+        font-size: 20px;
+        font-family:   Verdana, Geneva, Tahoma, sans-serif ;
+        font-weight: bolder;
+        border: 2px soild rgb(36, 14, 88);
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    .btns button:hover{
+        transition: .1s;
+        color: rgb(29, 157, 231);
+        transform: translate(5px);
+        
+    }
+    #start{
+        background: linear-gradient(45deg,rgb(21, 74, 21),rgb(89, 244, 89));
+    }
+    #stop{
+        background: linear-gradient(450deg,rgb(124, 6, 6),rgb(231, 115, 115));
+    }
+    #reset{
+        background: linear-gradient(450deg,rgb(146, 146, 5),rgb(251, 251, 100));
+    } 
+}
